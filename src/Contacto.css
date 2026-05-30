@@ -1,0 +1,5 @@
+.contact-page {
+  min-height: calc(100vh - 84px);
+  background: var(--bg-950);
+  padding-bottom: 72px;
+}

@@ -1,0 +1,177 @@
+:root {
+  /* Cambia este color para el fondo general de toda la web */
+  --bg-950: #f5f7fb;
+
+  /* Cambia este color para zonas profundas como el footer */
+  --bg-900: #16261D;
+
+  /* Cambia este color para tarjetas, paneles, navbar y superficies principales */
+  --surface-900: #ffffff;
+  --surface-900-rgb: 255, 255, 255;
+
+  /* Cambia este color para fondos internos suaves, placeholders y bloques sutiles */
+  --surface-800: #f4f7fb;
+  --surface-800-rgb: 244, 247, 251;
+
+  /* Cambia este color para fondos suaves de apoyo y variantes internas */
+  --surface-700: #edf3ff;
+  --surface-700-rgb: 237, 243, 255;
+
+  /* Cambia este color para bordes principales */
+  --border-strong: #cad4e3;
+
+  /* Cambia este color para bordes generales de tarjetas y paneles */
+  --border-default: #dfe6f1;
+
+  /* Cambia este color para bordes suaves y separadores */
+  --border-soft: #e8edf5;
+
+  /* Cambia este color para bordes secundarios e inputs */
+  --border-muted: #ccd3e0;
+
+  /* Cambia este color para el texto principal */
+  --text-strong: #4F5940;
+
+  /* Cambia este color para texto general */
+  --text-main: #D9B36C;
+
+  /* Cambia este color para texto secundario suave */
+  --text-soft: #52627e;
+
+  /* Cambia este color para texto menos importante, placeholders y ayudas */
+  --text-muted: #8a97ab;
+
+  /* Cambia este color para textos sobre fondos oscuros o de color */
+  --text-inverse: #ffffff;
+  --text-inverse-rgb: 255, 255, 255;
+
+  /* Cambia este color para botones principales, enlaces destacados y precios */
+  --accent-primary: #4F5940;
+  --accent-primary-rgb: 79, 89, 64;
+
+  /* Cambia este color para variantes mas intensas del color principal */
+  --accent-primary-strong: #4F5940;
+
+  /* Cambia este color para el nombre de marca y acentos del navbar */
+  --accent-brand: #4F5940;
+  --accent-brand-rgb: 79, 89, 64;
+
+  /* Cambia este color para acentos violetas */
+  --accent-purple: #8d2ef2;
+  --accent-purple-rgb: 141, 46, 242;
+
+  /* Cambia este color para acentos rosados */
+  --accent-pink: #cf006f;
+
+  /* Cambia este color para estados de exito */
+  --accent-success: #19a94c;
+  --accent-success-rgb: 25, 169, 76;
+
+  /* Cambia este color para advertencias o estrellas */
+  --accent-warning: #ffbc10;
+  --accent-warning-rgb: 255, 188, 16;
+
+  /* Cambia este color para descuentos, errores y badges rojos */
+  --accent-danger: #ff3f46;
+  --accent-danger-rgb: 255, 63, 70;
+
+  /* Cambia este color para iconos o superficies informativas azules */
+  --accent-info-soft: #dcebff;
+
+  /* Cambia este color para superficies suaves de exito */
+  --accent-success-soft: #ddf7e5;
+
+  /* Cambia este color para superficies suaves violetas */
+  --accent-purple-soft: #f1e4ff;
+
+  /* Cambia este color para superficies suaves naranjas */
+  --accent-orange-soft: #ffe8cf;
+
+  /* Cambia este color para el boton flotante de WhatsApp */
+  --accent-whatsapp: #25d366;
+
+  /* Cambia este color para el hover o degradado interno de WhatsApp */
+  --accent-whatsapp-strong: #4F5940;
+
+  /* Cambia este color para sombras generales */
+  --shadow-rgb: 27, 44, 90;
+
+  /* Cambia este color para sombras oscuras en banners */
+  --shadow-dark-rgb: 24, 19, 88;
+
+  /* Cambia este color para gradientes principales del home */
+  --gradient-hero: linear-gradient(90deg, #D9B36C 0%, #F2D98D 52%, #F2E7AC 100%);
+
+  /* Cambia este color para gradientes de CTA y prefooter */
+  --gradient-cta: linear-gradient(90deg, #D9B36C 0%, #F2E7AC 100%);
+
+  /* Cambia este color para el banner de contacto */
+  --gradient-contact: linear-gradient(90deg, #D9B36C 0%, #F2E7AC 100%);
+
+  /* Cambia este color para el degradado del logo o marca */
+  --gradient-brand: linear-gradient(135deg, #D9B36C 0%, #F2E7AC 100%);
+
+  /* Cambia este color para botones principales */
+  --gradient-button: linear-gradient(95deg, #D9B36C 0%, #F2E7AC 100%);
+
+  /* Cambia este color para detalles de oferta o fuego */
+  --gradient-highlight: linear-gradient(180deg, #ffb85c 0%, #ff5c3d 100%);
+
+  /* Cambia este color para categorias azules */
+  --gradient-category-blue: linear-gradient(135deg, #367ef7 0%, #2563eb 100%);
+
+  /* Cambia este color para categorias moradas */
+  --gradient-category-purple: linear-gradient(135deg, #b841ff 0%, #9c1dff 100%);
+
+  /* Cambia este color para categorias rosadas */
+  --gradient-category-pink: linear-gradient(135deg, #ff2f96 0%, #e50073 100%);
+
+  /* Cambia este color para categorias naranjas */
+  --gradient-category-orange: linear-gradient(135deg, #ff7b12 0%, #ff4b00 100%);
+
+  /* Cambia este color para el gradiente del boton flotante de WhatsApp */
+  --gradient-whatsapp: linear-gradient(180deg, var(--accent-whatsapp) 0%, var(--accent-whatsapp-strong) 100%);
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--text-main);
+  background: var(--bg-950);
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: var(--bg-950);
+}
+
+a,
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+img,
+svg {
+  display: block;
+}
+
+#root {
+  min-height: 100vh;
+}

@@ -1,0 +1,12 @@
+.app-shell {
+  width: min(1180px, calc(100% - 48px));
+  margin: 0 auto;
+  padding: 0 0 0;
+}
+
+@media (max-width: 900px) {
+  .app-shell {
+    width: min(100% - 28px, 1180px);
+    padding-top: 28px;
+  }
+}

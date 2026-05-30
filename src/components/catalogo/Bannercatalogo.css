@@ -1,0 +1,33 @@
+.catalog-banner {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  background: var(--surface-900);
+  border-bottom: 1px solid var(--border-soft);
+}
+
+.catalog-banner__inner {
+  width: min(1180px, calc(100% - 48px));
+  margin: 0 auto;
+  padding: 36px 0 24px;
+}
+
+.catalog-banner__inner h1 {
+  margin: 0;
+  color: var(--text-strong);
+  font-size: clamp(2.2rem, 4vw, 3.4rem);
+  font-weight: 800;
+  letter-spacing: -0.04em;
+}
+
+.catalog-banner__inner p {
+  margin: 10px 0 0;
+  color: var(--text-soft);
+  font-size: 1rem;
+}
+
+@media (max-width: 720px) {
+  .catalog-banner__inner {
+    width: min(100% - 28px, 1180px);
+    padding: 28px 0 20px;
+  }
+}
