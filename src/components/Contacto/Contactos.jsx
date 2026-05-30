@@ -50,7 +50,7 @@ const contactCards = [
     {
         title: 'Horario',
         tone: 'orange',
-        lines: ['Lunes a Viernes: 9:00 AM - 6:00 PM', 'Sabados: 10:00 AM - 2:00 PM', 'Domingos: Cerrado'],
+        lines: ['Lunes a Viernes: 9:00 AM - 6:00 PM', 'Sabados: Cerrado', 'Domingos: Cerrado'],
         icon: (
             <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="12" cy="12" r="8.25" stroke="currentColor" strokeWidth="1.7" />
